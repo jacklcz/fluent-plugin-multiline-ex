@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-tail-multiline-ex"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Yoshiharu Mori"]
   spec.email         = ["y-mori@sraoss.co.jp"]
   spec.description   = %q{merge tail_ex and tail_multiline input plugin}
