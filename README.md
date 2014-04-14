@@ -1,4 +1,4 @@
-# Fluent::Plugin::Tail::Multiline::Ex
+# fluent-tail-multiline-ex
 
 Now under construction.
 
