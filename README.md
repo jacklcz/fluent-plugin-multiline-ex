@@ -1,6 +1,9 @@
 # Fluent::Plugin::Tail::Multiline::Ex
 
+Now under construction.
+
 TODO: Write a gem description
+  
 
 ## Installation
 
