@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["y-mori@sraoss.co.jp"]
   spec.description   = %q{merge tail_ex and tail_multiline input plugin}
   spec.summary       = %q{merge tail_ex and tail_multiline input plugin}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/y-mori0110/fluent-plugin-multiline-ex"
   spec.license       = "Apache 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0")
