@@ -1,9 +1,6 @@
-# fluent-tail-multiline-ex
+# fluent-tail-multiline-ex,a plugin for Fluentd
 
-Now under construction.
-
-TODO: Write a gem description
-  
+tail_multiline_ex merged the great and useful functions of tail_ex and tail_multiline.(simply copy the both code and change the symbols)
 
 ## Installation
 
@@ -15,13 +12,20 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or, if you're using td-client, you can call td-client's gem
 
-    $ gem install fluent-plugin-tail-multiline-ex
+    $ /usr/lib64/fluent/ruby/bin/gem install fluent-plugin-tail-multiline-ex
 
-## Usage
+## Basic Usage
 
-TODO: Write usage instructions here
+tail-multiline_ex extends 
+ [tail_ex plugin](https://github.com/yosisa/fluent-plugin-tail-ex).   
+and
+ [tail_multiline plugin](https://github.com/tomohisaota/fluent-plugin-tail-multiline).
+
+## Thanks
+
+Grateful to the authors of tail_ex, tail_multiline and Fluentd!
 
 ## Contributing
 
