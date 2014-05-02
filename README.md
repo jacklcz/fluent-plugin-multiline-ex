@@ -19,9 +19,7 @@ Or, if you're using td-client, you can call td-client's gem
 ## Basic Usage
 
 tail-multiline_ex extends 
- [tail_ex plugin](https://github.com/yosisa/fluent-plugin-tail-ex).   
-and
- [tail_multiline plugin](https://github.com/tomohisaota/fluent-plugin-tail-multiline).
+ [tail_ex plugin](https://github.com/yosisa/fluent-plugin-tail-ex). and [tail_multiline plugin](https://github.com/tomohisaota/fluent-plugin-tail-multiline).
 
 ## Thanks
 
