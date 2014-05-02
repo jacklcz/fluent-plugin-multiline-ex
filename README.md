@@ -62,7 +62,7 @@ INFO: Pausing ProtocolHandler ["http-bio-8080"]
 ```
 2014-05-02 15:42:48	tomcat.catalina.log	{"class":"org.apache.catalina.core.StandardServer","method":"await","level":"SEVERE","messages":"StandardServer.await: create[localhost:8005]: \njava.net.BindException: Address already in use\n\tat java.net.PlainSocketImpl.socketBind(Native Method)\n\tat java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)\n\tat java.net.ServerSocket.bind(ServerSocket.java:376)\n\tat java.net.ServerSocket.<init>(ServerSocket.java:237)\n\tat org.apache.catalina.core.StandardServer.await(StandardServer.java:426)\n\tat org.apache.catalina.startup.Catalina.await(Catalina.java:777)\n\tat org.apache.catalina.startup.Catalina.start(Catalina.java:723)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Me
 thod.java:606)\n\tat org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)\n\tat org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)\n"}
-2014-05-02 15:42:48	dhcp-177-129.tomcat.catalina.log	{"class":"org.apache.coyote.AbstractProtocol","method":"pause","level":"INFO","messages":"Pausing ProtocolHandler [\"http-bio-8080\"]"}
+2014-05-02 15:42:48	tomcat.catalina.log	{"class":"org.apache.coyote.AbstractProtocol","method":"pause","level":"INFO","messages":"Pausing ProtocolHandler [\"http-bio-8080\"]"}
 ```
 
 
